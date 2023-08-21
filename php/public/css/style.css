@@ -1,0 +1,22 @@
+body{
+background-image: url("/public/img/wp.png");
+background-size: 100% 600%;
+background-position: stretch stretch;
+background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: 'pixel';
+    src: url("/public/fonts/regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title{
+font-family: "pixel";
+padding-top: 5vh;
+display: flex;
+color: rgb(31, 28, 21);
+align-items: center;
+justify-content: center;
+}
